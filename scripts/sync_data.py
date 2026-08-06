@@ -76,6 +76,7 @@ def fetch_one(code, name, theme):
     if hist.empty:
         return {"code": code, "name": name, "theme": theme, "error": "no data"}
 
+    pct_1d = pct_change(hist, 1)
     pct_1w = pct_change(hist, 5)
     pct_1m = pct_change(hist, 21)
     first_close = hist["Close"].iloc[0]
@@ -86,6 +87,7 @@ def fetch_one(code, name, theme):
         "code": code,
         "name": name,
         "theme": theme,
+        "pct_1d": pct_1d,
         "pct_1w": pct_1w,
         "pct_1m": pct_1m,
         "pct_1y": pct_1y,
@@ -109,7 +111,7 @@ def main():
         row["classification"] = classify(row)
         rows.append(row)
         print(f"{code} {name}: {row.get('classification')} "
-              f"(1w={row.get('pct_1w')}, 1m={row.get('pct_1m')}, 1y={row.get('pct_1y')})",
+              f"(1d={row.get('pct_1d')}, 1w={row.get('pct_1w')}, 1m={row.get('pct_1m')}, 1y={row.get('pct_1y')})",
               file=sys.stderr)
 
     counts = {}
