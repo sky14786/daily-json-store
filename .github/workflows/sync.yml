@@ -3,7 +3,10 @@ name: sync data
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '30 8 * * *'
+    # 06:32 UTC = 15:32 KST, 한국 장마감(15:30) 직후 — 오후 보고서(15:35 KST)용
+    - cron: '32 6 * * *'
+    # 21:30 UTC = 06:30 KST(다음날), 미국장 마감 이후 — 아침 보고서(07:00 KST)용
+    - cron: '30 21 * * *'
 
 permissions:
   contents: write
