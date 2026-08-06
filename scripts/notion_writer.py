@@ -225,7 +225,7 @@ def find_date_heading(blocks):
     return None
 
 
-def sync_main_page(data, today_str, commentary_page_id):
+def sync_main_page(data, today_str, updated_str, commentary_page_id):
     """메인 페이지 갱신. child_page 블록(하위페이지 4개: 이전기록/상세표/아침브리핑/
     시황코멘트)은 절대 건드리지 않는다 — 이 블록을 지우면 그 하위페이지 자체가
     삭제/이동될 위험이 있다(Notion API 특성). intro 문단과 divider도 그대로 두고,
@@ -264,7 +264,7 @@ def sync_main_page(data, today_str, commentary_page_id):
         for b in dynamic:
             delete_block(b["id"])
 
-    new_blocks = [heading2(today_str), build_holdings_table(rows_by_code)]
+    new_blocks = [heading2(today_str), paragraph([text_rich(updated_str)]), build_holdings_table(rows_by_code)]
     new_blocks.append(heading2(f"통과 종목 (ISA 스윙 후보, {len(passed)}개)"))
     if passed:
         new_blocks.append(build_classification_table(passed))
@@ -284,7 +284,7 @@ def sync_main_page(data, today_str, commentary_page_id):
     print(f"main page updated: 통과 {len(passed)} / 과열 {len(overheat)} / 하락 {len(declined)}", file=sys.stderr)
 
 
-def sync_detail_page(data):
+def sync_detail_page(data, updated_str):
     holdings_codes = {c for c, _, _ in HOLDINGS}
     non_holding = [r for r in data["rows"] if r["code"] not in holdings_codes]
     overheat = [r for r in non_holding if r.get("classification") == "과열"]
@@ -293,7 +293,7 @@ def sync_detail_page(data):
     for b in get_children(DETAIL_PAGE_ID):
         delete_block(b["id"])
 
-    blocks = [heading2(f"과열 종목 ({len(overheat)}개)")]
+    blocks = [paragraph([text_rich(updated_str)]), heading2(f"과열 종목 ({len(overheat)}개)")]
     if overheat:
         blocks.append(build_classification_table(overheat))
     blocks.append(heading2(f"하락 종목 ({len(declined)}개)"))
@@ -310,9 +310,11 @@ def main():
     data_path = Path(__file__).resolve().parent.parent / "data" / "latest.json"
     data = json.loads(data_path.read_text(encoding="utf-8"))
     generated_utc = datetime.fromisoformat(data["generated_at_utc"].replace("Z", "+00:00"))
-    today_str = (generated_utc + timedelta(hours=9)).strftime("%Y-%m-%d")
-    sync_detail_page(data)
-    sync_main_page(data, today_str, COMMENTARY_PAGE_ID)
+    generated_kst = generated_utc + timedelta(hours=9)
+    today_str = generated_kst.strftime("%Y-%m-%d")
+    updated_str = f"갱신: {generated_kst.strftime('%Y-%m-%d %H:%M')} KST"
+    sync_detail_page(data, updated_str)
+    sync_main_page(data, today_str, updated_str, COMMENTARY_PAGE_ID)
 
 
 if __name__ == "__main__":
