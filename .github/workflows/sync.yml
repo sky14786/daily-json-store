@@ -29,3 +29,12 @@ jobs:
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "auto: data sync $(date -u +%Y-%m-%d)"
           git push
+      # 아침(06:30 KST) sync는 한국장이 아직 안 열려 어제 마감가 그대로라 메인
+      # 페이지를 여기서 갱신하면 "오늘 날짜인데 어제 숫자"로 보여 오해를 줄 수 있음
+      # — 그래서 오후(15:32 KST) sync 때만 Notion에 씀. workflow_dispatch(수동
+      # 테스트)일 때도 실행되게 해둠.
+      - name: Notion 메인/상세 페이지 갱신 (오후 sync에만)
+        if: github.event.schedule == '32 6 * * *' || github.event_name == 'workflow_dispatch'
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python3 scripts/notion_writer.py
