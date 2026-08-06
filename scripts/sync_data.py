@@ -57,6 +57,17 @@ TICKERS = [
 
 OVERHEAT_1Y_PCT = 50.0
 
+# 보유 4종목이 실제로 추종하는 미국 벤치마크(전부 환노출 상품). 방산(494840)은
+# 미래에셋 자체 커스텀 10종목 지수라 완전히 같은 상품이 없어 ITA를 근사치로 씀 —
+# 조사 근거는 vault ISA_SWING_TRADING_RULES_2026-08.md 참고.
+OVERNIGHT_BENCHMARKS = [
+    ("360750", "TIGER 미국S&P500", "SPY", True),
+    ("458730", "TIGER 미국배당다우존스", "SCHD", True),
+    ("453650", "KODEX 미국S&P500금융", "XLF", True),
+    ("494840", "TIGER 미국방산TOP10", "ITA", False),  # 근사치, 정확히 같은 지수 아님
+]
+FX_TICKER = "KRW=X"
+
 
 def pct_change(hist, back_rows):
     if len(hist) <= back_rows:
@@ -104,6 +115,42 @@ def classify(row):
     return "하락" if row["pct_1m"] < 0 else "통과"
 
 
+def last_1d_pct(ticker):
+    try:
+        hist = yf.Ticker(ticker).history(period="5d")
+    except Exception as e:  # noqa: BLE001
+        return None, str(e)
+    if len(hist) < 2:
+        return None, "no data"
+    return round((hist["Close"].iloc[-1] / hist["Close"].iloc[-2] - 1) * 100, 2), None
+
+
+def build_overnight_estimates():
+    """간밤 미국장 마감 기준으로, 보유종목이 오늘 한국장에서 얼마나 갭띄고
+    시작할지 추정치. 실제 벤치마크(SPY/SCHD/XLF/ITA) 1일 수익률 + 원/달러
+    환율 1일 변동을 합쳐서 계산한다(둘 다 환노출 상품이라 원화환산 시 그대로
+    더해짐). 한국장이 아직 안 열린 아침 시점에만 의미가 있는 수치 — 오후엔
+    실제 마감가가 이미 이걸 반영해서 나오므로 참고용일 뿐."""
+    fx_pct, fx_err = last_1d_pct(FX_TICKER)
+    estimates = []
+    for code, name, benchmark, is_exact in OVERNIGHT_BENCHMARKS:
+        bench_pct, bench_err = last_1d_pct(benchmark)
+        if bench_err or fx_err or bench_pct is None or fx_pct is None:
+            estimates.append({"code": code, "name": name, "benchmark": benchmark,
+                               "is_exact_match": is_exact, "error": bench_err or fx_err})
+            continue
+        implied_krw_pct = round(((1 + bench_pct / 100) * (1 + fx_pct / 100) - 1) * 100, 2)
+        estimates.append({
+            "code": code, "name": name, "benchmark": benchmark, "is_exact_match": is_exact,
+            "benchmark_1d_pct": bench_pct, "usdkrw_1d_pct": fx_pct,
+            "implied_overnight_pct": implied_krw_pct,
+        })
+        print(f"overnight estimate {code} {name} via {benchmark}: "
+              f"benchmark={bench_pct}%, USDKRW={fx_pct}%, implied={implied_krw_pct}%",
+              file=sys.stderr)
+    return estimates
+
+
 def main():
     rows = []
     for code, name, theme in TICKERS:
@@ -123,6 +170,7 @@ def main():
         "overheat_threshold_1y_pct": OVERHEAT_1Y_PCT,
         "counts": counts,
         "rows": rows,
+        "overnight_estimates": build_overnight_estimates(),
     }
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
