@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ISA 리포트의 기계적인 부분(표·아카이브)을 Notion API로 직접 쓴다.
 
-과열/하락/통과 분류, 보유종목 표, 관심후보 표, 상세표, 어제자 아카이브까지 전부
+과열/하락/통과 분류, 관심후보 표, 상세표, 어제자 아카이브까지 전부
 이 스크립트가 결정론적으로 처리한다. Claude 루틴은 이제 신규발굴·시장폭 코멘트만
 "오늘의 시황 코멘트" 페이지에 쓰면 된다(이 스크립트가 건드리지 않는 영역).
 
@@ -29,12 +29,15 @@ ARCHIVE_HUB_ID = "3b443a8e-e493-8144-a563-d426b07a7c69"
 DETAIL_PAGE_ID = "3b443a8e-e493-812f-85ee-fb14faa2b425"
 COMMENTARY_PAGE_ID = "3b443a8e-e493-8138-b0ba-d047e0a4f340"
 
-HOLDINGS = [
-    ("360750", "TIGER 미국S&P500", "30%"),
-    ("458730", "TIGER 미국배당다우존스", "30%"),
-    ("453650", "KODEX 미국S&P500금융", "20%"),
-    ("494840", "TIGER 미국방산TOP10", "20%"),
-]
+# 보유종목 표는 2026-08-13 에 없앴다. 대시보드가 평가손익까지 보여주므로 중복이다
+#   (vault Decisions/2026-08-12-dashboard-ticker-source-of-truth).
+# sync_data 의 TICKERS 에서도 뺐지만, 되돌아오더라도 스윙 목록에 섞이지 않도록
+# theme 접두어로 거른다 — 코드 목록을 하드코딩하면 두 파일을 맞춰야 한다.
+HOLDING_THEME_PREFIX = "핵심보유"
+
+
+def is_holding(row):
+    return (row.get("theme") or "").startswith(HOLDING_THEME_PREFIX)
 
 
 def _request(method, path, body=None):
@@ -187,21 +190,6 @@ def table_block(header, rows, widths=None):
     }
 
 
-def build_holdings_table(rows_by_code):
-    header = ["종목코드", "종목명", "비중", "1일", "1주일", "1개월", "1년"]
-    rows = []
-    for code, name, weight in HOLDINGS:
-        r = rows_by_code.get(code)
-        if r is None or r.get("error"):
-            rows.append([[text_rich(code)], [text_rich(name)], [text_rich(weight)],
-                         [text_rich("확인 안 됨")], [text_rich("확인 안 됨")],
-                         [text_rich("확인 안 됨")], [text_rich("확인 안 됨")]])
-            continue
-        rows.append([[text_rich(code)], [text_rich(name)], [text_rich(weight)],
-                     pct_cell(r["pct_1d"]), pct_cell(r["pct_1w"]),
-                     pct_cell(r["pct_1m"]), pct_cell(r["pct_1y"])])
-    return table_block(header, rows)
-
 
 def build_classification_table(rows, with_theme=True):
     header = ["종목코드", "종목명"] + (["테마"] if with_theme else []) + ["1일", "1주일", "1개월", "1년"]
@@ -230,11 +218,10 @@ def sync_main_page(data, today_str, updated_str, commentary_page_id):
     시황코멘트)은 절대 건드리지 않는다 — 이 블록을 지우면 그 하위페이지 자체가
     삭제/이동될 위험이 있다(Notion API 특성). intro 문단과 divider도 그대로 두고,
     그 사이(intro/divider 다음 ~ child_page 블록들 전) 영역만 재작성한다."""
-    holdings_codes = {c for c, _, _ in HOLDINGS}
     rows_by_code = {r["code"]: r for r in data["rows"]}
     all_rows = data["rows"]
 
-    non_holding = [r for r in all_rows if r["code"] not in holdings_codes]
+    non_holding = [r for r in all_rows if not is_holding(r)]
     passed = [r for r in non_holding if r.get("classification") == "통과"]
     overheat = [r for r in non_holding if r.get("classification") == "과열"]
     declined = [r for r in non_holding if r.get("classification") == "하락"]
@@ -264,7 +251,7 @@ def sync_main_page(data, today_str, updated_str, commentary_page_id):
         for b in dynamic:
             delete_block(b["id"])
 
-    new_blocks = [heading2(today_str), paragraph([text_rich(updated_str)]), build_holdings_table(rows_by_code)]
+    new_blocks = [heading2(today_str), paragraph([text_rich(updated_str)])]
     new_blocks.append(heading2(f"통과 종목 (ISA 스윙 후보, {len(passed)}개)"))
     if passed:
         new_blocks.append(build_classification_table(passed))
@@ -285,8 +272,7 @@ def sync_main_page(data, today_str, updated_str, commentary_page_id):
 
 
 def sync_detail_page(data, updated_str):
-    holdings_codes = {c for c, _, _ in HOLDINGS}
-    non_holding = [r for r in data["rows"] if r["code"] not in holdings_codes]
+    non_holding = [r for r in data["rows"] if not is_holding(r)]
     overheat = [r for r in non_holding if r.get("classification") == "과열"]
     declined = [r for r in non_holding if r.get("classification") == "하락"]
 
