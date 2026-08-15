@@ -1,10 +1,11 @@
 {
-  "generated_at_utc": "2026-08-14T21:50:32.545984+00:00",
+  "generated_at_utc": "2026-08-15T07:06:12.506931+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
-    "통과": 17,
-    "과열": 8,
-    "하락": 7
+    "확인 안 됨": 20,
+    "통과": 5,
+    "과열": 4,
+    "하락": 3
   },
   "rows": [
     {
@@ -13,9 +14,9 @@
       "theme": "조선",
       "pct_1d": 3.2,
       "pct_1w": 2.5,
-      "pct_1m": 10.2,
-      "pct_1y": 0.3,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "466920",
@@ -23,9 +24,9 @@
       "theme": "조선",
       "pct_1d": 3.0,
       "pct_1w": 2.2,
-      "pct_1m": 9.3,
-      "pct_1y": 0.0,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "396500",
@@ -33,9 +34,9 @@
       "theme": "반도체",
       "pct_1d": 2.8,
       "pct_1w": 19.7,
-      "pct_1m": -13.1,
-      "pct_1y": 194.0,
-      "classification": "과열"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "463250",
@@ -53,9 +54,9 @@
       "theme": "2차전지",
       "pct_1d": 3.4,
       "pct_1w": 6.2,
-      "pct_1m": 8.1,
-      "pct_1y": 15.5,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "305720",
@@ -63,9 +64,9 @@
       "theme": "2차전지",
       "pct_1d": 2.9,
       "pct_1w": 6.1,
-      "pct_1m": 7.4,
-      "pct_1y": 13.8,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "139250",
@@ -93,9 +94,9 @@
       "theme": "헬스케어",
       "pct_1d": -0.3,
       "pct_1w": 2.6,
-      "pct_1m": 13.7,
-      "pct_1y": -2.3,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "266420",
@@ -103,9 +104,9 @@
       "theme": "헬스케어",
       "pct_1d": -1.3,
       "pct_1w": 2.3,
-      "pct_1m": 12.9,
-      "pct_1y": -1.9,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": 21.8,
+      "classification": "확인 안 됨"
     },
     {
       "code": "244580",
@@ -123,9 +124,9 @@
       "theme": "바이오",
       "pct_1d": -1.1,
       "pct_1w": 3.4,
-      "pct_1m": 14.2,
-      "pct_1y": -14.8,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "091180",
@@ -153,9 +154,9 @@
       "theme": "코스피200",
       "pct_1d": 2.6,
       "pct_1w": 12.2,
-      "pct_1m": -5.5,
-      "pct_1y": 154.3,
-      "classification": "과열"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "229200",
@@ -163,9 +164,9 @@
       "theme": "코스닥150",
       "pct_1d": 0.2,
       "pct_1w": 9.0,
-      "pct_1m": 3.4,
-      "pct_1y": 8.3,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "453640",
@@ -173,9 +174,9 @@
       "theme": "헬스케어(미국)",
       "pct_1d": 0.0,
       "pct_1w": 2.3,
-      "pct_1m": 1.7,
-      "pct_1y": 30.8,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "218420",
@@ -183,9 +184,9 @@
       "theme": "에너지(미국)",
       "pct_1d": 0.1,
       "pct_1w": 5.8,
-      "pct_1m": 2.9,
-      "pct_1y": 47.1,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": -0.6,
+      "classification": "확인 안 됨"
     },
     {
       "code": "453660",
@@ -193,9 +194,9 @@
       "theme": "경기소비재",
       "pct_1d": 0.7,
       "pct_1w": 0.2,
-      "pct_1m": -2.8,
-      "pct_1y": 6.8,
-      "classification": "하락"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "453630",
@@ -223,9 +224,9 @@
       "theme": "나스닥100",
       "pct_1d": 0.8,
       "pct_1w": 2.1,
-      "pct_1m": -3.9,
-      "pct_1y": 29.9,
-      "classification": "하락"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "200030",
@@ -243,9 +244,9 @@
       "theme": "사이버보안",
       "pct_1d": 4.0,
       "pct_1w": 8.0,
-      "pct_1m": 0.1,
-      "pct_1y": 33.9,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "241180",
@@ -253,9 +254,9 @@
       "theme": "니케이225",
       "pct_1d": 0.8,
       "pct_1w": 4.3,
-      "pct_1m": -2.2,
-      "pct_1y": 53.0,
-      "classification": "과열"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "101280",
@@ -273,9 +274,9 @@
       "theme": "TOPIX",
       "pct_1d": 1.2,
       "pct_1w": 3.6,
-      "pct_1m": 3.5,
-      "pct_1y": 40.3,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "352540",
@@ -283,9 +284,9 @@
       "theme": "일본리츠",
       "pct_1d": -0.2,
       "pct_1w": 0.0,
-      "pct_1m": -2.4,
-      "pct_1y": -0.4,
-      "classification": "하락"
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "469160",
@@ -293,9 +294,9 @@
       "theme": "일본반도체",
       "pct_1d": 1.3,
       "pct_1w": 5.9,
-      "pct_1m": -13.3,
-      "pct_1y": 121.4,
-      "classification": "과열"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "465660",
@@ -313,9 +314,9 @@
       "theme": "일본섹터",
       "pct_1d": 0.5,
       "pct_1w": 2.6,
-      "pct_1m": 1.2,
-      "pct_1y": 27.2,
-      "classification": "통과"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     },
     {
       "code": "292560",
@@ -323,9 +324,9 @@
       "theme": "엔선물",
       "pct_1d": 0.0,
       "pct_1w": -0.5,
-      "pct_1m": -2.9,
-      "pct_1y": -5.4,
-      "classification": "하락"
+      "pct_1m": null,
+      "pct_1y": NaN,
+      "classification": "확인 안 됨"
     }
   ],
   "overnight_estimates": [
@@ -335,8 +336,8 @@
       "benchmark": "SPY",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.2,
-      "usdkrw_1d_pct": 0.0,
-      "implied_overnight_pct": -0.2
+      "usdkrw_1d_pct": -0.34,
+      "implied_overnight_pct": -0.54
     },
     {
       "code": "458730",
@@ -344,8 +345,8 @@
       "benchmark": "SCHD",
       "is_exact_match": true,
       "benchmark_1d_pct": 0.26,
-      "usdkrw_1d_pct": 0.0,
-      "implied_overnight_pct": 0.26
+      "usdkrw_1d_pct": -0.34,
+      "implied_overnight_pct": -0.08
     },
     {
       "code": "453650",
@@ -353,8 +354,8 @@
       "benchmark": "XLF",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.17,
-      "usdkrw_1d_pct": 0.0,
-      "implied_overnight_pct": -0.17
+      "usdkrw_1d_pct": -0.34,
+      "implied_overnight_pct": -0.51
     },
     {
       "code": "494840",
@@ -362,8 +363,8 @@
       "benchmark": "ITA",
       "is_exact_match": false,
       "benchmark_1d_pct": 1.41,
-      "usdkrw_1d_pct": 0.0,
-      "implied_overnight_pct": 1.41
+      "usdkrw_1d_pct": -0.34,
+      "implied_overnight_pct": 1.07
     }
   ]
 }
