@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T21:46:16.139452+00:00",
+  "generated_at_utc": "2026-08-17T07:30:54.507388+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "통과": 17,
@@ -335,8 +335,8 @@
       "benchmark": "SPY",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.2,
-      "usdkrw_1d_pct": -0.03,
-      "implied_overnight_pct": -0.23
+      "usdkrw_1d_pct": -0.27,
+      "implied_overnight_pct": -0.47
     },
     {
       "code": "458730",
@@ -344,8 +344,8 @@
       "benchmark": "SCHD",
       "is_exact_match": true,
       "benchmark_1d_pct": 0.26,
-      "usdkrw_1d_pct": -0.03,
-      "implied_overnight_pct": 0.23
+      "usdkrw_1d_pct": -0.27,
+      "implied_overnight_pct": -0.01
     },
     {
       "code": "453650",
@@ -353,8 +353,8 @@
       "benchmark": "XLF",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.17,
-      "usdkrw_1d_pct": -0.03,
-      "implied_overnight_pct": -0.2
+      "usdkrw_1d_pct": -0.27,
+      "implied_overnight_pct": -0.44
     },
     {
       "code": "494840",
@@ -362,8 +362,8 @@
       "benchmark": "ITA",
       "is_exact_match": false,
       "benchmark_1d_pct": 1.41,
-      "usdkrw_1d_pct": -0.03,
-      "implied_overnight_pct": 1.38
+      "usdkrw_1d_pct": -0.27,
+      "implied_overnight_pct": 1.14
     }
   ]
 }
