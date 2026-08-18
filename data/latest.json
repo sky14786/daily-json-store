@@ -1,11 +1,10 @@
 {
-  "generated_at_utc": "2026-08-18T07:13:12.098783+00:00",
+  "generated_at_utc": "2026-08-18T21:49:07.531670+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
-    "통과": 12,
-    "과열": 7,
-    "확인 안 됨": 6,
-    "하락": 7
+    "통과": 16,
+    "과열": 8,
+    "하락": 8
   },
   "rows": [
     {
@@ -64,9 +63,9 @@
       "theme": "2차전지",
       "pct_1d": -4.2,
       "pct_1w": -2.5,
-      "pct_1m": null,
-      "pct_1y": NaN,
-      "classification": "확인 안 됨"
+      "pct_1m": 5.7,
+      "pct_1y": 12.2,
+      "classification": "통과"
     },
     {
       "code": "139250",
@@ -104,9 +103,9 @@
       "theme": "헬스케어",
       "pct_1d": -3.8,
       "pct_1w": -6.2,
-      "pct_1m": null,
-      "pct_1y": 17.1,
-      "classification": "확인 안 됨"
+      "pct_1m": 10.2,
+      "pct_1y": -4.3,
+      "classification": "통과"
     },
     {
       "code": "244580",
@@ -114,9 +113,9 @@
       "theme": "바이오",
       "pct_1d": -5.1,
       "pct_1w": -7.9,
-      "pct_1m": null,
-      "pct_1y": 13.7,
-      "classification": "확인 안 됨"
+      "pct_1m": 5.0,
+      "pct_1y": -8.6,
+      "classification": "통과"
     },
     {
       "code": "261070",
@@ -304,9 +303,9 @@
       "theme": "일본반도체",
       "pct_1d": -2.8,
       "pct_1w": 2.0,
-      "pct_1m": null,
-      "pct_1y": NaN,
-      "classification": "확인 안 됨"
+      "pct_1m": -13.2,
+      "pct_1y": 106.8,
+      "classification": "과열"
     },
     {
       "code": "488480",
@@ -314,9 +313,9 @@
       "theme": "일본섹터",
       "pct_1d": -0.7,
       "pct_1w": 1.6,
-      "pct_1m": null,
-      "pct_1y": NaN,
-      "classification": "확인 안 됨"
+      "pct_1m": 2.8,
+      "pct_1y": 23.5,
+      "classification": "통과"
     },
     {
       "code": "292560",
@@ -324,9 +323,9 @@
       "theme": "엔선물",
       "pct_1d": -0.5,
       "pct_1w": -0.9,
-      "pct_1m": null,
-      "pct_1y": NaN,
-      "classification": "확인 안 됨"
+      "pct_1m": -3.0,
+      "pct_1y": -5.9,
+      "classification": "하락"
     }
   ],
   "overnight_estimates": [
@@ -335,36 +334,36 @@
       "name": "TIGER 미국S&P500",
       "benchmark": "SPY",
       "is_exact_match": true,
-      "benchmark_1d_pct": NaN,
-      "usdkrw_1d_pct": -0.26,
-      "implied_overnight_pct": NaN
+      "benchmark_1d_pct": -0.68,
+      "usdkrw_1d_pct": -0.21,
+      "implied_overnight_pct": -0.89
     },
     {
       "code": "458730",
       "name": "TIGER 미국배당다우존스",
       "benchmark": "SCHD",
       "is_exact_match": true,
-      "benchmark_1d_pct": NaN,
-      "usdkrw_1d_pct": -0.26,
-      "implied_overnight_pct": NaN
+      "benchmark_1d_pct": 0.64,
+      "usdkrw_1d_pct": -0.21,
+      "implied_overnight_pct": 0.43
     },
     {
       "code": "453650",
       "name": "KODEX 미국S&P500금융",
       "benchmark": "XLF",
       "is_exact_match": true,
-      "benchmark_1d_pct": NaN,
-      "usdkrw_1d_pct": -0.26,
-      "implied_overnight_pct": NaN
+      "benchmark_1d_pct": 0.45,
+      "usdkrw_1d_pct": -0.21,
+      "implied_overnight_pct": 0.24
     },
     {
       "code": "494840",
       "name": "TIGER 미국방산TOP10",
       "benchmark": "ITA",
       "is_exact_match": false,
-      "benchmark_1d_pct": NaN,
-      "usdkrw_1d_pct": -0.26,
-      "implied_overnight_pct": NaN
+      "benchmark_1d_pct": 0.38,
+      "usdkrw_1d_pct": -0.21,
+      "implied_overnight_pct": 0.17
     }
   ]
 }
