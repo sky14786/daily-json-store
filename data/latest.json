@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-29T23:31:22.864453+00:00",
+  "generated_at_utc": "2026-08-30T12:05:11.461333+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "통과": 21,
@@ -281,10 +281,10 @@
       "code": "352540",
       "name": "KODEX 일본부동산리츠(H)",
       "theme": "일본리츠",
-      "pct_1d": -2.5,
-      "pct_1w": -0.9,
-      "pct_1m": -6.0,
-      "pct_1y": -3.2,
+      "pct_1d": -2.0,
+      "pct_1w": -0.4,
+      "pct_1m": -5.5,
+      "pct_1y": -2.6,
       "classification": "하락"
     },
     {
