@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-06T11:10:58.461139+00:00",
+  "generated_at_utc": "2026-09-06T23:00:11.256764+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "하락": 20,
@@ -335,8 +335,8 @@
       "benchmark": "SPY",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.39,
-      "usdkrw_1d_pct": -0.32,
-      "implied_overnight_pct": -0.71
+      "usdkrw_1d_pct": -0.73,
+      "implied_overnight_pct": -1.12
     },
     {
       "code": "458730",
@@ -344,8 +344,8 @@
       "benchmark": "SCHD",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.8,
-      "usdkrw_1d_pct": -0.32,
-      "implied_overnight_pct": -1.12
+      "usdkrw_1d_pct": -0.73,
+      "implied_overnight_pct": -1.52
     },
     {
       "code": "453650",
@@ -353,8 +353,8 @@
       "benchmark": "XLF",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.79,
-      "usdkrw_1d_pct": -0.32,
-      "implied_overnight_pct": -1.11
+      "usdkrw_1d_pct": -0.73,
+      "implied_overnight_pct": -1.51
     },
     {
       "code": "494840",
@@ -362,8 +362,8 @@
       "benchmark": "ITA",
       "is_exact_match": false,
       "benchmark_1d_pct": -0.16,
-      "usdkrw_1d_pct": -0.32,
-      "implied_overnight_pct": -0.48
+      "usdkrw_1d_pct": -0.73,
+      "implied_overnight_pct": -0.89
     }
   ]
 }
