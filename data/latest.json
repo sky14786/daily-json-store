@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T11:53:50.022241+00:00",
+  "generated_at_utc": "2026-09-16T23:44:37.629152+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "하락": 24,
@@ -334,36 +334,36 @@
       "name": "TIGER 미국S&P500",
       "benchmark": "SPY",
       "is_exact_match": true,
-      "benchmark_1d_pct": -0.46,
-      "usdkrw_1d_pct": 1.62,
-      "implied_overnight_pct": 1.15
+      "benchmark_1d_pct": -0.44,
+      "usdkrw_1d_pct": 1.02,
+      "implied_overnight_pct": 0.58
     },
     {
       "code": "458730",
       "name": "TIGER 미국배당다우존스",
       "benchmark": "SCHD",
       "is_exact_match": true,
-      "benchmark_1d_pct": -0.03,
-      "usdkrw_1d_pct": 1.62,
-      "implied_overnight_pct": 1.59
+      "benchmark_1d_pct": -1.43,
+      "usdkrw_1d_pct": 1.02,
+      "implied_overnight_pct": -0.42
     },
     {
       "code": "453650",
       "name": "KODEX 미국S&P500금융",
       "benchmark": "XLF",
       "is_exact_match": true,
-      "benchmark_1d_pct": -0.32,
-      "usdkrw_1d_pct": 1.62,
-      "implied_overnight_pct": 1.29
+      "benchmark_1d_pct": -1.62,
+      "usdkrw_1d_pct": 1.02,
+      "implied_overnight_pct": -0.62
     },
     {
       "code": "494840",
       "name": "TIGER 미국방산TOP10",
       "benchmark": "ITA",
       "is_exact_match": false,
-      "benchmark_1d_pct": -1.16,
-      "usdkrw_1d_pct": 1.62,
-      "implied_overnight_pct": 0.44
+      "benchmark_1d_pct": 0.59,
+      "usdkrw_1d_pct": 1.02,
+      "implied_overnight_pct": 1.62
     }
   ]
 }
