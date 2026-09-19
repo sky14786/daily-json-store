@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T23:29:43.211683+00:00",
+  "generated_at_utc": "2026-09-19T11:17:45.150701+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "하락": 22,
@@ -334,9 +334,9 @@
       "name": "TIGER 미국S&P500",
       "benchmark": "SPY",
       "is_exact_match": true,
-      "benchmark_1d_pct": -0.12,
-      "usdkrw_1d_pct": 0.68,
-      "implied_overnight_pct": 0.56
+      "benchmark_1d_pct": 0.13,
+      "usdkrw_1d_pct": 0.4,
+      "implied_overnight_pct": 0.53
     },
     {
       "code": "458730",
@@ -344,8 +344,8 @@
       "benchmark": "SCHD",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.62,
-      "usdkrw_1d_pct": 0.68,
-      "implied_overnight_pct": 0.06
+      "usdkrw_1d_pct": 0.4,
+      "implied_overnight_pct": -0.22
     },
     {
       "code": "453650",
@@ -353,8 +353,8 @@
       "benchmark": "XLF",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.04,
-      "usdkrw_1d_pct": 0.68,
-      "implied_overnight_pct": 0.64
+      "usdkrw_1d_pct": 0.4,
+      "implied_overnight_pct": 0.36
     },
     {
       "code": "494840",
@@ -362,8 +362,8 @@
       "benchmark": "ITA",
       "is_exact_match": false,
       "benchmark_1d_pct": -0.02,
-      "usdkrw_1d_pct": 0.68,
-      "implied_overnight_pct": 0.66
+      "usdkrw_1d_pct": 0.4,
+      "implied_overnight_pct": 0.38
     }
   ]
 }
