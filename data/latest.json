@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T23:53:04.603363+00:00",
+  "generated_at_utc": "2026-09-24T12:02:28.110867+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "하락": 22,
@@ -335,17 +335,17 @@
       "benchmark": "SPY",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.72,
-      "usdkrw_1d_pct": 1.09,
-      "implied_overnight_pct": 0.36
+      "usdkrw_1d_pct": 1.37,
+      "implied_overnight_pct": 0.64
     },
     {
       "code": "458730",
       "name": "TIGER 미국배당다우존스",
       "benchmark": "SCHD",
       "is_exact_match": true,
-      "benchmark_1d_pct": -1.36,
-      "usdkrw_1d_pct": 1.09,
-      "implied_overnight_pct": -0.28
+      "benchmark_1d_pct": -0.58,
+      "usdkrw_1d_pct": 1.37,
+      "implied_overnight_pct": 0.78
     },
     {
       "code": "453650",
@@ -353,8 +353,8 @@
       "benchmark": "XLF",
       "is_exact_match": true,
       "benchmark_1d_pct": -0.47,
-      "usdkrw_1d_pct": 1.09,
-      "implied_overnight_pct": 0.61
+      "usdkrw_1d_pct": 1.37,
+      "implied_overnight_pct": 0.89
     },
     {
       "code": "494840",
@@ -362,8 +362,8 @@
       "benchmark": "ITA",
       "is_exact_match": false,
       "benchmark_1d_pct": -1.03,
-      "usdkrw_1d_pct": 1.09,
-      "implied_overnight_pct": 0.05
+      "usdkrw_1d_pct": 1.37,
+      "implied_overnight_pct": 0.33
     }
   ]
 }
