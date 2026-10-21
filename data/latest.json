@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-20T11:55:19.209873+00:00",
+  "generated_at_utc": "2026-10-21T00:02:51.672125+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "하락": 25,
@@ -14,7 +14,7 @@
       "pct_1d": -6.6,
       "pct_1w": -10.1,
       "pct_1m": -23.9,
-      "pct_1y": -36.6,
+      "pct_1y": -40.6,
       "classification": "하락"
     },
     {
@@ -24,7 +24,7 @@
       "pct_1d": -7.3,
       "pct_1w": -10.3,
       "pct_1m": -24.5,
-      "pct_1y": -38.0,
+      "pct_1y": -41.6,
       "classification": "하락"
     },
     {
@@ -34,7 +34,7 @@
       "pct_1d": -5.0,
       "pct_1w": -14.0,
       "pct_1m": -17.8,
-      "pct_1y": 61.2,
+      "pct_1y": 62.8,
       "classification": "과열"
     },
     {
@@ -44,7 +44,7 @@
       "pct_1d": -9.9,
       "pct_1w": -5.8,
       "pct_1m": -18.3,
-      "pct_1y": -9.7,
+      "pct_1y": -10.9,
       "classification": "하락"
     },
     {
@@ -54,7 +54,7 @@
       "pct_1d": -5.7,
       "pct_1w": -1.6,
       "pct_1m": 0.8,
-      "pct_1y": 5.0,
+      "pct_1y": 3.9,
       "classification": "통과"
     },
     {
@@ -64,7 +64,7 @@
       "pct_1d": -5.9,
       "pct_1w": -2.3,
       "pct_1m": 0.9,
-      "pct_1y": 2.6,
+      "pct_1y": 2.1,
       "classification": "통과"
     },
     {
@@ -74,7 +74,7 @@
       "pct_1d": -7.2,
       "pct_1w": -8.9,
       "pct_1m": -11.9,
-      "pct_1y": 17.9,
+      "pct_1y": 16.3,
       "classification": "하락"
     },
     {
@@ -84,7 +84,7 @@
       "pct_1d": -7.6,
       "pct_1w": -7.2,
       "pct_1m": -6.4,
-      "pct_1y": 1.0,
+      "pct_1y": -0.3,
       "classification": "하락"
     },
     {
@@ -94,7 +94,7 @@
       "pct_1d": -1.8,
       "pct_1w": 6.1,
       "pct_1m": -1.6,
-      "pct_1y": -18.0,
+      "pct_1y": -18.2,
       "classification": "하락"
     },
     {
@@ -104,7 +104,7 @@
       "pct_1d": -2.4,
       "pct_1w": 6.1,
       "pct_1m": -1.4,
-      "pct_1y": -17.2,
+      "pct_1y": -17.7,
       "classification": "하락"
     },
     {
@@ -114,7 +114,7 @@
       "pct_1d": -1.9,
       "pct_1w": 2.9,
       "pct_1m": -2.5,
-      "pct_1y": -24.7,
+      "pct_1y": -24.5,
       "classification": "하락"
     },
     {
@@ -124,7 +124,7 @@
       "pct_1d": -3.7,
       "pct_1w": 3.1,
       "pct_1m": -6.1,
-      "pct_1y": -33.3,
+      "pct_1y": -33.2,
       "classification": "하락"
     },
     {
@@ -134,7 +134,7 @@
       "pct_1d": -3.9,
       "pct_1w": 0.3,
       "pct_1m": -7.8,
-      "pct_1y": 17.1,
+      "pct_1y": 15.5,
       "classification": "하락"
     },
     {
@@ -144,7 +144,7 @@
       "pct_1d": -4.2,
       "pct_1w": -1.3,
       "pct_1m": -15.5,
-      "pct_1y": 10.5,
+      "pct_1y": 8.7,
       "classification": "하락"
     },
     {
@@ -154,7 +154,7 @@
       "pct_1d": -3.5,
       "pct_1w": -8.9,
       "pct_1m": -16.8,
-      "pct_1y": 63.2,
+      "pct_1y": 62.8,
       "classification": "과열"
     },
     {
@@ -164,7 +164,7 @@
       "pct_1d": -4.4,
       "pct_1w": -7.8,
       "pct_1m": -4.2,
-      "pct_1y": -10.4,
+      "pct_1y": -10.2,
       "classification": "하락"
     },
     {
@@ -174,7 +174,7 @@
       "pct_1d": -1.4,
       "pct_1w": 1.1,
       "pct_1m": 3.1,
-      "pct_1y": 15.6,
+      "pct_1y": 14.2,
       "classification": "통과"
     },
     {
@@ -184,7 +184,7 @@
       "pct_1d": 0.8,
       "pct_1w": 1.3,
       "pct_1m": 3.2,
-      "pct_1y": 48.1,
+      "pct_1y": 45.6,
       "classification": "통과"
     },
     {
@@ -194,7 +194,7 @@
       "pct_1d": 0.8,
       "pct_1w": 1.0,
       "pct_1m": -0.4,
-      "pct_1y": -8.5,
+      "pct_1y": -8.8,
       "classification": "하락"
     },
     {
@@ -204,7 +204,7 @@
       "pct_1d": -1.0,
       "pct_1w": 2.4,
       "pct_1m": 2.0,
-      "pct_1y": 4.1,
+      "pct_1y": 4.0,
       "classification": "통과"
     },
     {
@@ -214,7 +214,7 @@
       "pct_1d": -0.2,
       "pct_1w": -2.6,
       "pct_1m": -5.4,
-      "pct_1y": 6.9,
+      "pct_1y": 5.9,
       "classification": "하락"
     },
     {
@@ -224,7 +224,7 @@
       "pct_1d": -0.7,
       "pct_1w": -4.4,
       "pct_1m": -1.0,
-      "pct_1y": 10.9,
+      "pct_1y": 9.4,
       "classification": "하락"
     },
     {
@@ -234,7 +234,7 @@
       "pct_1d": -1.6,
       "pct_1w": -2.4,
       "pct_1m": -4.0,
-      "pct_1y": 1.9,
+      "pct_1y": 0.8,
       "classification": "하락"
     },
     {
@@ -244,7 +244,7 @@
       "pct_1d": -0.6,
       "pct_1w": -9.6,
       "pct_1m": -2.5,
-      "pct_1y": 21.2,
+      "pct_1y": 19.1,
       "classification": "하락"
     },
     {
@@ -254,7 +254,7 @@
       "pct_1d": -2.0,
       "pct_1w": -6.5,
       "pct_1m": -3.3,
-      "pct_1y": 17.0,
+      "pct_1y": 17.2,
       "classification": "하락"
     },
     {
@@ -264,7 +264,7 @@
       "pct_1d": -1.1,
       "pct_1w": -2.3,
       "pct_1m": -3.3,
-      "pct_1y": 13.6,
+      "pct_1y": 12.5,
       "classification": "하락"
     },
     {
@@ -274,7 +274,7 @@
       "pct_1d": -1.6,
       "pct_1w": -2.5,
       "pct_1m": -0.6,
-      "pct_1y": 24.6,
+      "pct_1y": 24.7,
       "classification": "하락"
     },
     {
@@ -284,7 +284,7 @@
       "pct_1d": -1.0,
       "pct_1w": -1.0,
       "pct_1m": -4.9,
-      "pct_1y": -11.2,
+      "pct_1y": -11.3,
       "classification": "하락"
     },
     {
@@ -294,7 +294,7 @@
       "pct_1d": -3.5,
       "pct_1w": -12.0,
       "pct_1m": -4.7,
-      "pct_1y": 43.9,
+      "pct_1y": 45.3,
       "classification": "하락"
     },
     {
@@ -304,7 +304,7 @@
       "pct_1d": -4.3,
       "pct_1w": -16.1,
       "pct_1m": -6.7,
-      "pct_1y": 33.9,
+      "pct_1y": 34.0,
       "classification": "하락"
     },
     {
@@ -314,7 +314,7 @@
       "pct_1d": -1.9,
       "pct_1w": -3.7,
       "pct_1m": -3.0,
-      "pct_1y": 7.6,
+      "pct_1y": 7.1,
       "classification": "하락"
     },
     {
@@ -324,7 +324,7 @@
       "pct_1d": -0.8,
       "pct_1w": -1.2,
       "pct_1m": -4.6,
-      "pct_1y": -11.6,
+      "pct_1y": -11.5,
       "classification": "하락"
     }
   ],
@@ -334,36 +334,36 @@
       "name": "TIGER 미국S&P500",
       "benchmark": "SPY",
       "is_exact_match": true,
-      "benchmark_1d_pct": 0.42,
-      "usdkrw_1d_pct": -0.4,
-      "implied_overnight_pct": 0.02
+      "benchmark_1d_pct": NaN,
+      "usdkrw_1d_pct": -0.47,
+      "implied_overnight_pct": NaN
     },
     {
       "code": "458730",
       "name": "TIGER 미국배당다우존스",
       "benchmark": "SCHD",
       "is_exact_match": true,
-      "benchmark_1d_pct": -0.32,
-      "usdkrw_1d_pct": -0.4,
-      "implied_overnight_pct": -0.72
+      "benchmark_1d_pct": NaN,
+      "usdkrw_1d_pct": -0.47,
+      "implied_overnight_pct": NaN
     },
     {
       "code": "453650",
       "name": "KODEX 미국S&P500금융",
       "benchmark": "XLF",
       "is_exact_match": true,
-      "benchmark_1d_pct": -0.83,
-      "usdkrw_1d_pct": -0.4,
-      "implied_overnight_pct": -1.23
+      "benchmark_1d_pct": NaN,
+      "usdkrw_1d_pct": -0.47,
+      "implied_overnight_pct": NaN
     },
     {
       "code": "494840",
       "name": "TIGER 미국방산TOP10",
       "benchmark": "ITA",
       "is_exact_match": false,
-      "benchmark_1d_pct": -0.63,
-      "usdkrw_1d_pct": -0.4,
-      "implied_overnight_pct": -1.03
+      "benchmark_1d_pct": NaN,
+      "usdkrw_1d_pct": -0.47,
+      "implied_overnight_pct": NaN
     }
   ]
 }
