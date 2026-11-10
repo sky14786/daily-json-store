@@ -1,329 +1,328 @@
 {
-  "generated_at_utc": "2026-11-10T03:43:40.608460+00:00",
+  "generated_at_utc": "2026-11-10T15:06:21.764052+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
-    "하락": 25,
-    "통과": 7
+    "통과": 32
   },
   "rows": [
     {
       "code": "494670",
       "name": "TIGER 조선TOP10",
       "theme": "조선",
-      "pct_1d": 4.4,
-      "pct_1w": -6.6,
-      "pct_1m": -20.8,
-      "pct_1y": -48.8,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "466920",
       "name": "SOL 조선TOP3플러스",
       "theme": "조선",
-      "pct_1d": 4.6,
-      "pct_1w": -7.7,
-      "pct_1m": -20.4,
-      "pct_1y": -49.4,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "396500",
       "name": "TIGER Fn반도체TOP10",
       "theme": "반도체",
-      "pct_1d": 6.0,
-      "pct_1w": -11.2,
-      "pct_1m": -26.4,
-      "pct_1y": 41.2,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "463250",
       "name": "TIGER K방산&우주",
       "theme": "방산",
-      "pct_1d": 5.7,
-      "pct_1w": -7.9,
-      "pct_1m": -26.3,
-      "pct_1y": -26.8,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "305540",
       "name": "TIGER 2차전지테마",
       "theme": "2차전지",
-      "pct_1d": 5.4,
-      "pct_1w": -4.6,
-      "pct_1m": -19.0,
-      "pct_1y": -20.1,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "305720",
       "name": "KODEX 2차전지산업",
       "theme": "2차전지",
-      "pct_1d": 5.2,
-      "pct_1w": -3.7,
-      "pct_1m": -18.7,
-      "pct_1y": -22.6,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "139250",
       "name": "TIGER 200 에너지화학",
       "theme": "화학",
-      "pct_1d": 4.2,
-      "pct_1w": -4.2,
-      "pct_1m": -20.6,
-      "pct_1y": -6.5,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "117460",
       "name": "KODEX 에너지화학",
       "theme": "화학",
-      "pct_1d": 3.2,
-      "pct_1w": -4.6,
-      "pct_1m": -22.8,
-      "pct_1y": -22.5,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "143860",
       "name": "TIGER 헬스케어",
       "theme": "헬스케어",
-      "pct_1d": 0.8,
-      "pct_1w": 0.7,
-      "pct_1m": -1.3,
-      "pct_1y": -27.1,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "266420",
       "name": "KODEX 헬스케어",
       "theme": "헬스케어",
-      "pct_1d": 0.8,
-      "pct_1w": 0.5,
-      "pct_1m": -1.4,
-      "pct_1y": -26.8,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "244580",
       "name": "KODEX 바이오",
       "theme": "바이오",
-      "pct_1d": 2.7,
-      "pct_1w": 2.0,
-      "pct_1m": -6.9,
-      "pct_1y": -35.4,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "261070",
       "name": "TIGER KOSDAQ150바이오테크",
       "theme": "바이오",
-      "pct_1d": 2.9,
-      "pct_1w": -7.9,
-      "pct_1m": -17.1,
-      "pct_1y": -48.2,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "091180",
       "name": "KODEX 자동차",
       "theme": "자동차",
-      "pct_1d": 3.5,
-      "pct_1w": 0.4,
-      "pct_1m": -8.4,
-      "pct_1y": 2.3,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "138540",
       "name": "TIGER 현대차그룹플러스",
       "theme": "자동차",
-      "pct_1d": 2.7,
-      "pct_1w": -1.2,
-      "pct_1m": -8.8,
-      "pct_1y": -0.2,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "069500",
       "name": "KODEX 200",
       "theme": "코스피200",
-      "pct_1d": 4.7,
-      "pct_1w": -8.0,
-      "pct_1m": -19.0,
-      "pct_1y": 43.8,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "229200",
       "name": "KODEX 코스닥150",
       "theme": "코스닥150",
-      "pct_1d": 4.2,
-      "pct_1w": -7.4,
-      "pct_1m": -25.5,
-      "pct_1y": -30.0,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "453640",
       "name": "KODEX 미국S&P500헬스케어",
       "theme": "헬스케어(미국)",
-      "pct_1d": 1.2,
-      "pct_1w": 2.7,
-      "pct_1m": 11.1,
-      "pct_1y": 20.3,
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
       "classification": "통과"
     },
     {
       "code": "218420",
       "name": "KODEX 미국S&P500에너지",
       "theme": "에너지(미국)",
-      "pct_1d": -0.3,
-      "pct_1w": -7.4,
-      "pct_1m": -3.7,
-      "pct_1y": 29.2,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "453660",
       "name": "KODEX 미국S&P500경기소비재",
       "theme": "경기소비재",
-      "pct_1d": 2.1,
-      "pct_1w": 2.5,
-      "pct_1m": 8.0,
-      "pct_1y": -5.0,
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
       "classification": "통과"
     },
     {
       "code": "453630",
       "name": "KODEX 미국S&P500필수소비재",
       "theme": "필수소비재",
-      "pct_1d": 0.4,
-      "pct_1w": 0.5,
-      "pct_1m": 9.8,
-      "pct_1y": 11.7,
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
       "classification": "통과"
     },
     {
       "code": "280930",
       "name": "KODEX 미국러셀2000",
       "theme": "러셀2000",
-      "pct_1d": 2.6,
-      "pct_1w": 1.3,
-      "pct_1m": 0.8,
-      "pct_1y": 12.3,
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
       "classification": "통과"
     },
     {
       "code": "133690",
       "name": "TIGER 미국나스닥100",
       "theme": "나스닥100",
-      "pct_1d": 3.0,
-      "pct_1w": -0.0,
-      "pct_1m": -9.3,
-      "pct_1y": 2.2,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "200030",
       "name": "KODEX 미국S&P500산업재",
       "theme": "산업재",
-      "pct_1d": 3.2,
-      "pct_1w": -0.0,
-      "pct_1m": 0.3,
-      "pct_1y": 1.1,
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
       "classification": "통과"
     },
     {
       "code": "418670",
       "name": "TIGER 글로벌AI사이버보안",
       "theme": "사이버보안",
-      "pct_1d": 3.5,
-      "pct_1w": -1.9,
-      "pct_1m": -10.0,
-      "pct_1y": 24.5,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "241180",
       "name": "TIGER 일본니케이225",
       "theme": "니케이225",
-      "pct_1d": 3.1,
-      "pct_1w": -2.5,
-      "pct_1m": -11.5,
-      "pct_1y": 8.5,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "101280",
       "name": "KODEX 일본TOPIX100",
       "theme": "TOPIX",
-      "pct_1d": 3.0,
-      "pct_1w": -0.3,
-      "pct_1m": -3.9,
-      "pct_1y": 8.4,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "195920",
       "name": "TIGER 일본TOPIX(합성H)",
       "theme": "TOPIX",
-      "pct_1d": 2.2,
-      "pct_1w": -0.5,
-      "pct_1m": -5.2,
-      "pct_1y": 18.0,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "352540",
       "name": "KODEX 일본부동산리츠(H)",
       "theme": "일본리츠",
-      "pct_1d": -0.1,
-      "pct_1w": 0.2,
-      "pct_1m": -0.0,
-      "pct_1y": -12.6,
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
       "classification": "통과"
     },
     {
       "code": "469160",
       "name": "ACE 일본반도체",
       "theme": "일본반도체",
-      "pct_1d": 5.4,
-      "pct_1w": -8.4,
-      "pct_1m": -26.6,
-      "pct_1y": 12.4,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "465660",
       "name": "TIGER 일본반도체FACTSET",
       "theme": "일본반도체",
-      "pct_1d": 6.6,
-      "pct_1w": -12.3,
-      "pct_1m": -32.6,
-      "pct_1y": 7.0,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "488480",
       "name": "RISE 일본섹터TOP4Plus",
       "theme": "일본섹터",
-      "pct_1d": 1.2,
-      "pct_1w": -4.3,
-      "pct_1m": -10.7,
-      "pct_1y": -3.4,
-      "classification": "하락"
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
+      "classification": "통과"
     },
     {
       "code": "292560",
       "name": "TIGER 일본엔선물",
       "theme": "엔선물",
-      "pct_1d": -0.4,
-      "pct_1w": 0.4,
-      "pct_1m": 0.4,
-      "pct_1y": -10.4,
+      "pct_1d": NaN,
+      "pct_1w": NaN,
+      "pct_1m": NaN,
+      "pct_1y": NaN,
       "classification": "통과"
     }
   ],
@@ -333,36 +332,36 @@
       "name": "TIGER 미국S&P500",
       "benchmark": "SPY",
       "is_exact_match": true,
-      "benchmark_1d_pct": 2.37,
-      "usdkrw_1d_pct": -1.31,
-      "implied_overnight_pct": 1.03
+      "benchmark_1d_pct": -0.13,
+      "usdkrw_1d_pct": -1.49,
+      "implied_overnight_pct": -1.62
     },
     {
       "code": "458730",
       "name": "TIGER 미국배당다우존스",
       "benchmark": "SCHD",
       "is_exact_match": true,
-      "benchmark_1d_pct": 1.36,
-      "usdkrw_1d_pct": -1.31,
-      "implied_overnight_pct": 0.03
+      "benchmark_1d_pct": -0.43,
+      "usdkrw_1d_pct": -1.49,
+      "implied_overnight_pct": -1.91
     },
     {
       "code": "453650",
       "name": "KODEX 미국S&P500금융",
       "benchmark": "XLF",
       "is_exact_match": true,
-      "benchmark_1d_pct": 1.45,
-      "usdkrw_1d_pct": -1.31,
-      "implied_overnight_pct": 0.12
+      "benchmark_1d_pct": 0.15,
+      "usdkrw_1d_pct": -1.49,
+      "implied_overnight_pct": -1.34
     },
     {
       "code": "494840",
       "name": "TIGER 미국방산TOP10",
       "benchmark": "ITA",
       "is_exact_match": false,
-      "benchmark_1d_pct": 3.9,
-      "usdkrw_1d_pct": -1.31,
-      "implied_overnight_pct": 2.54
+      "benchmark_1d_pct": 0.74,
+      "usdkrw_1d_pct": -1.49,
+      "implied_overnight_pct": -0.76
     }
   ]
 }
