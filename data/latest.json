@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-28T03:26:53.655918+00:00",
+  "generated_at_utc": "2026-11-28T15:44:14.355875+00:00",
   "overheat_threshold_1y_pct": 50.0,
   "counts": {
     "하락": 25,
@@ -280,10 +280,10 @@
       "code": "352540",
       "name": "KODEX 일본부동산리츠(H)",
       "theme": "일본리츠",
-      "pct_1d": -1.8,
-      "pct_1w": -1.4,
-      "pct_1m": -0.0,
-      "pct_1y": -15.7,
+      "pct_1d": -1.3,
+      "pct_1w": -0.9,
+      "pct_1m": 0.4,
+      "pct_1y": -15.3,
       "classification": "통과"
     },
     {
@@ -334,8 +334,8 @@
       "benchmark": "SPY",
       "is_exact_match": true,
       "benchmark_1d_pct": 1.62,
-      "usdkrw_1d_pct": 0.04,
-      "implied_overnight_pct": 1.66
+      "usdkrw_1d_pct": -0.72,
+      "implied_overnight_pct": 0.89
     },
     {
       "code": "458730",
@@ -343,8 +343,8 @@
       "benchmark": "SCHD",
       "is_exact_match": true,
       "benchmark_1d_pct": 1.08,
-      "usdkrw_1d_pct": 0.04,
-      "implied_overnight_pct": 1.12
+      "usdkrw_1d_pct": -0.72,
+      "implied_overnight_pct": 0.35
     },
     {
       "code": "453650",
@@ -352,8 +352,8 @@
       "benchmark": "XLF",
       "is_exact_match": true,
       "benchmark_1d_pct": 1.15,
-      "usdkrw_1d_pct": 0.04,
-      "implied_overnight_pct": 1.19
+      "usdkrw_1d_pct": -0.72,
+      "implied_overnight_pct": 0.42
     },
     {
       "code": "494840",
@@ -361,8 +361,8 @@
       "benchmark": "ITA",
       "is_exact_match": false,
       "benchmark_1d_pct": 2.31,
-      "usdkrw_1d_pct": 0.04,
-      "implied_overnight_pct": 2.35
+      "usdkrw_1d_pct": -0.72,
+      "implied_overnight_pct": 1.57
     }
   ]
 }
